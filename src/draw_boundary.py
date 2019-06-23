@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from generate_data import gen_data
+from src.generate_data import gen_data
 
 # function that calculate the probability of a input belong to each classes
 def prob(x1, x2, weights, means, cov):
